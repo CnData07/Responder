@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2c62d9;
+}
+.bgBox{
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+
+    padding: 0 24px;
+}
+.mainTitle{
+    height: 186px;
+    line-height: 186px;
+    width: 100%;
+    text-align: center;
+    font-size: 64px;
+    color: white;
+}
+.changeInfo{
+    width: 90%;
+    height: 140px;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.2);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.change-info,
+.change-res{
+    height: 108px;
+    flex: 1;
+    margin: 0 16px;
+    border-radius: 46px;
+    color: rgba(255, 255, 255, 0.9);
+    outline: none;
+    border: 0;
+    font-size: 42px;
+    font-weight: 700;
+    background-color: transparent;
+}
+
+.select{
+    color: rgba(255, 255, 255,1);
+    background-color: rgba(255,255,255,0.5);
+}
+.info-form{
+    /*flex:1;*/
+    width: 96%;
+    margin: 68px;
+    border-radius: 56px;
+    /*box-sizing: border-box;*/
+    background-color: rgba(255,255,255,0.95);
+
+}
+.info-title{
+    padding-top: 68px;
+    font-size: 38px;
+    text-align: center;
+}
+.inInfo-input-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 178px;
+    padding: 86px 68px;
+    border-bottom: 1px solid rgba(0,0,0,0.55);
+}
+label{
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.65);
+}
+input[type='text']{
+    height: 108px;
+    outline: none;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-size: 36px;
+    padding: 0 36px;
+    line-height: 80px;
+    border-radius: 16px;
+}
+
+input[type='text']::placeholder{
+    color:  rgba(0, 0, 0, 0.2);
+}
+.submitBox{
+    padding: 68px;
+    height: 108px;
+}
+.submitBox input[type=submit]{
+    font-size: 42px;
+    font-weight: 700;
+    background-color: #1a99fa;
+    color: white;
+    outline: none;
+    border: 0;
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.responder-box{
+    /*flex:1;*/
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#responder{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    font-size: 108px;
+    font-weight: 700;
+    outline: none;
+    border: 0;
+    color: white;
+    background-color: #4bae50;
+}
+#responder:active{
+    background-color: rgba(75, 174, 80, 0.89);
+}
